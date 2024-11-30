@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Buddy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports Buddy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="./img/logo.webp" alt="" class="logo">
+    <h1>Sports Buddy</h1>
+    <nav>
+      <ul>
+        <li><a href="#register">Register</a></li>
+        <li><a href="#login">Login</a></li>
+        <li><a href="#add-event">Add Event</a></li>
+      </ul>
+    </nav>
+  
+  </header>
+
+  <main>
+    <!-- Register Section -->
+    <section id="register"  >
+      <h2>Register</h2>
+      <form id="registerForm">
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button type="submit">Register</button>
+      </form>
+    </section>
+
+    <!-- Login Section -->
+    <section id="login">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <input type="email" id="loginEmail" placeholder="Email" required>
+        <input type="password" id="loginPassword" placeholder="Password" required>
+        <button type="submit">Login</button>
+      </form>
+    </section>
+
+    <!-- Add Event Section -->
+    <section id="add-event">
+      <h2>Add Sports Event</h2>
+      <form id="eventForm">
+        <input type="text" id="eventName" placeholder="Event Name" required>
+        <input type="text" id="eventLocation" placeholder="Location" required>
+        <input type="datetime-local" id="eventDate" required>
+        <input type="number"   placeholder="Enter Your Phone Number" id="">
+        <button type="submit">Add Event</button>
+      </form>
+      <div id="eventsList">
+        <h3>Upcoming Events</h3>
+        <ul id="eventItems"></ul>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>© 2024 Sports Buddy. All rights reserved.</p>
+  </footer>
+ 
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+</body>
+</html>
